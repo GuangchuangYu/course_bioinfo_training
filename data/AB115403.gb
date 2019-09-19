@@ -1,0 +1,55 @@
+LOCUS       AB115403                 561 bp    RNA     linear   VRL 31-JUL-2004
+DEFINITION  Transmissible gastroenteritis virus ORF 7 gene for protein 7,
+            complete cds, strain:h-5.
+ACCESSION   AB115403
+VERSION     AB115403.1
+KEYWORDS    .
+SOURCE      Transmissible gastroenteritis virus
+  ORGANISM  Transmissible gastroenteritis virus
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA
+            stage; Nidovirales; Coronaviridae; Coronavirinae; Alphacoronavirus.
+REFERENCE   1
+  AUTHORS   Taniguchi,T., Taniguchi,R., Takahashi,A., Hayashidani,H.,
+            Hanaki,K., Shirai,J. and Honda,E.
+  TITLE     Sequence comparison of the ORF 7 region of transmissible
+            gastroenteritis viruses isolated in Japan
+  JOURNAL   J. Vet. Med. Sci. 66 (6), 717-719 (2004)
+   PUBMED   15240950
+REFERENCE   2  (bases 1 to 561)
+  AUTHORS   Taniguchi,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JUL-2003) Takahide Taniguchi, Tokyo University of
+            Agriculture and Technology, Faculty of Agriculture, Department of
+            Veterinary Medicine; Saiwaicho 3-5-8, Fuchu, Tokyo 183-8509, Japan
+            (E-mail:taniguti@cc.tuat.ac.jp, Tel:81-42-367-5774(ex.5774))
+FEATURES             Location/Qualifiers
+     source          1..561
+                     /organism="Transmissible gastroenteritis virus"
+                     /mol_type="genomic RNA"
+                     /strain="h-5"
+                     /db_xref="taxon:11149"
+                     /country="Japan"
+     gene            52..288
+                     /gene="ORF 7"
+     CDS             52..288
+                     /gene="ORF 7"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /codon_start=1
+                     /product="protein 7"
+                     /protein_id="BAD34524.1"
+                     /translation="MLVLLHAVFITVLILLLIGRLQLLERLLLNHSFNLKTVNDFNIL
+                     YRSLAEIRLLKVLLRLIFLVLLGFCCYRLLVILM"
+ORIGIN      
+        1 gtttgatgac acacaggttg agataattga tgaggtaacg aactaaacga gatgctcgtc
+       61 ctcctccatg ctgtatttat tacagtttta atcttactac taattggtag actccaatta
+      121 ttagaaagat tattacttaa tcactctttc aatcttaaaa ctgttaatga ttttaatatc
+      181 ttatatagga gtttagcaga aatcagatta ctaaaagtgt tgcttcgatt aatctttcta
+      241 gttttactag gattttgctg ctatagattg ttagttatat taatgtaagg caacccgatg
+      301 tctaaaactg gtttttccga ggaattactg gtcatcgcgc tgtctactct tgtacagaat
+      361 ggtaagcacg tgtaatagga ggtacaagca accctattgc atattaggaa gtttagattt
+      421 gatttggcaa tgctagattt agtaatttag agaagtttaa agatccgcta cgacgagcca
+      481 acaatggaag agctaacgtc tggatctagt gattgtttaa aatgtaaaat tgtttgaaaa
+      541 ttttcctttt gatagtgata c
+//
+
