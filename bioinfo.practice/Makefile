@@ -8,10 +8,10 @@ rd:
 	Rscript -e 'library(methods); devtools::document()'
 
 
-build:
+build: rd
 	Rscript -e 'devtools::build()'
 
-install:
+install: build
 	cd ..;\
 	R CMD INSTALL $(PKGNAME)_$(PKGVERS).tar.gz
 

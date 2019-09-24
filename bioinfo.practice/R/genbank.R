@@ -22,3 +22,20 @@ read.genbank <- function(file) {
     read.fasta(f)
 }
 
+
+##' download genbank files
+##'
+##'
+##' @title download_genbank
+##' @param accession accession number
+##' @return NULL
+##' @export
+##' @author Guangchuang Yu
+download_genbank <- function(accession) {
+    for (acc in accession) {
+        URL <- paste("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&id=", 
+                     paste(acc, collapse = ","), "&rettype=gb&retmode=text", 
+                     sep = "")
+        download.file(url = URL, destfile = paste0(acc, ".gb"), quiet = TRUE)
+    }
+}
