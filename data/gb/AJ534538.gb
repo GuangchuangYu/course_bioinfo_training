@@ -1,0 +1,74 @@
+LOCUS       AJ534538                1143 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Sylvia communis mitochondrial cytb gene for cytochrome b.
+ACCESSION   AJ534538
+VERSION     AJ534538.1
+KEYWORDS    cytb gene; cytochrome b.
+SOURCE      mitochondrion Sylvia communis (greater whitethroat)
+  ORGANISM  Sylvia communis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Sylviinae; Sylvia.
+REFERENCE   1
+  AUTHORS   Bohning-Gaese,K., Schuda,M.D. and Helbig,A.J.
+  TITLE     Weak phylogenetic effects on ecological niches of Sylvia warblers
+  JOURNAL   J. Evol. Biol. 16 (5), 956-965 (2003)
+   PUBMED   14635911
+REFERENCE   2  (bases 1 to 1143)
+  AUTHORS   Helbig,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-DEC-2002) Helbig A.J., Vogelwarte Hiddensee,
+            University of Greifswald, Zum Hochland 17, D-18565 Kloster, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..1143
+                     /organism="Sylvia communis"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:216193"
+                     /tissue_type="blood"
+                     /country="Germany"
+     gene            1..1143
+                     /gene="cytb"
+     CDS             1..1143
+                     /gene="cytb"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="CAD58945.1"
+                     /db_xref="GOA:Q70VW3"
+                     /db_xref="HSSP:1BCC"
+                     /db_xref="InterPro:IPR005797"
+                     /db_xref="InterPro:IPR005798"
+                     /db_xref="InterPro:IPR016174"
+                     /db_xref="InterPro:IPR016175"
+                     /db_xref="UniProtKB/TrEMBL:Q70VW3"
+                     /translation="MALNLRKNHPILKIVNDALIDLPTPSNISSWWNFGSLLGLCLIT
+                     QIVTGLFLAMHYTADTSLAFASVAHMCRDVQFGWLIRNLHANGASFFFICIYLHIGRG
+                     IYYGSYLNKETWNVGVVLLLTLMATAFVGYVLPWGQMSFWGATVITNLFSAIPYIGQT
+                     LVEWAWGGFSVDNPTLTRFFALHFLLPFVIAGLTLVHLTLLHETGSNNPLGIPSDCDK
+                     IPFHPYYSTKDVLGFALMFIPLASLALFAPNLLGDPENFTPANPLATPPHIKPEWYFL
+                     FAYAILRSIPNKLGGVLALAASVLVLFLMPLLHTSKLRSMTFRPLSQILFWTLVANVL
+                     ILTWVGSQPVEHPFIIIGQLASLSYFTIILVLFPLVSILENKMLKL"
+ORIGIN      
+        1 atggctctca atctacgcaa aaaccaccca atcctaaaaa tcgtcaacga cgccctcatt
+       61 gacctcccaa caccatcaaa catctcatcc tgatgaaact tcggatcact tctaggcctc
+      121 tgcctaatta cacaaatcgt cacaggccta ttcctagcaa tacattacac agcagacacc
+      181 tcactagcct tcgcctccgt agcccacata tgccgagacg tacaattcgg ctgactaatc
+      241 cgaaacctac acgcaaacgg agcctcattc ttcttcatct gcatctacct tcacatcggc
+      301 cgaggaatct actacggatc ctacttgaac aaagaaacct gaaacgtagg agttgtcctt
+      361 ctactaaccc tcatagctac cgccttcgta ggttacgtcc ttccatgagg ccaaatatca
+      421 ttctgagggg ccactgtaat cacaaaccta ttctcagcca tcccctacat cggtcaaaca
+      481 ttagtagaat gggcctgagg aggattctca gtagacaacc ccacattaac ccgattcttc
+      541 gctctccact tcctccttcc ctttgtaatc gcaggcctca cactagtcca tctcacactc
+      601 ctacacgaaa caggatccaa caacccccta ggaatcccat cagactgcga caaaatccca
+      661 ttccaccctt actactccac aaaagacgtt cttggcttcg cgctcatgtt catcccccta
+      721 gcctccctag cactattcgc cccaaacctt ctaggggacc cagaaaactt cacgcccgcc
+      781 aacccactag caacaccacc tcacatcaag ccagaatgat acttcctatt cgcctacgct
+      841 atccttcggt ccatcccaaa caaactaggc ggtgtactcg ctctagccgc ttccgtccta
+      901 gtcctattcc taatacctct actccacaca tccaaactgc gctcaataac cttccgccct
+      961 ctatcccaaa tcctattctg aaccctagtc gccaacgtgc tcatccttac ctgagtagga
+     1021 agccagccgg tagaacaccc tttcatcatc atcggccaac tagcctcact ctcctacttc
+     1081 acaatcatcc tagtcctctt cccccttgta tccatcctag aaaacaaaat actcaagcta
+     1141 taa
+//
+

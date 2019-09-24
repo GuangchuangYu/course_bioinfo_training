@@ -1,0 +1,74 @@
+LOCUS       AJ534537                1143 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Sylvia nana mitochondrial cytb gene for cytochrome b.
+ACCESSION   AJ534537
+VERSION     AJ534537.1
+KEYWORDS    cytb gene; cytochrome b.
+SOURCE      mitochondrion Sylvia nana
+  ORGANISM  Sylvia nana
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Sylviinae; Sylvia.
+REFERENCE   1
+  AUTHORS   Bohning-Gaese,K., Schuda,M.D. and Helbig,A.J.
+  TITLE     Weak phylogenetic effects on ecological niches of Sylvia warblers
+  JOURNAL   J. Evol. Biol. 16 (5), 956-965 (2003)
+   PUBMED   14635911
+REFERENCE   2  (bases 1 to 1143)
+  AUTHORS   Helbig,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-DEC-2002) Helbig A.J., Vogelwarte Hiddensee,
+            University of Greifswald, Zum Hochland 17, D-18565 Kloster, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..1143
+                     /organism="Sylvia nana"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:175014"
+                     /tissue_type="blood"
+                     /country="Israel"
+     gene            1..1143
+                     /gene="cytb"
+     CDS             1..1143
+                     /gene="cytb"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="CAD58944.1"
+                     /db_xref="GOA:Q70VW4"
+                     /db_xref="HSSP:1BCC"
+                     /db_xref="InterPro:IPR005797"
+                     /db_xref="InterPro:IPR005798"
+                     /db_xref="InterPro:IPR016174"
+                     /db_xref="InterPro:IPR016175"
+                     /db_xref="UniProtKB/TrEMBL:Q70VW4"
+                     /translation="MALNLRKNHPILKIVNDALIDLPTPSNISSWWNFGSLLGLCLIT
+                     QIITGLLLAMHYTADTSLAFASVAHMCRDVQFGWLIRNLHANGASFFFICIYFHIGRG
+                     IYYGSYLNKETWNVGVLLLLMLMATAFVGYVLPWGQMSFWGATVITNLFSAIPYIGQT
+                     LVEWAWGGFSVDNPTLTRFFAIHFLLPFVIAGLTLVHLTLLHETGSNNPLGIPSDCDK
+                     IPFHPYYSTKDLLGFALMFIPLASLALFAPNLLGDPENFTPANPLATPPHIKPEWYFL
+                     FAYAILRSIPNKLGGVLALAASVLVLFLIPLLHTSKLRSMTFRPLSQILFWTLVANLL
+                     VLTWVGSQPVEHPFIIIGQVASASYFTIILILFPLVSILENKMLKL"
+ORIGIN      
+        1 atggctctca atcttcgtaa aaaccacccc atcctaaaaa tcgtcaacga cgccctcatc
+       61 gaccttccca caccatcaaa catctcatca tgatgaaact ttggctcact cctaggcctc
+      121 tgcctaatca cacaaattat tacaggccta ctactagcaa tacactacac agcagacacc
+      181 tcactagctt tcgcctccgt agcccacatg tgccgagatg ttcaattcgg ctgacttatc
+      241 cgaaacctac atgcaaacgg agcttctttc ttcttcatct gcatctactt ccacatcggc
+      301 cgaggaatct actatggctc atacctaaac aaagagacat gaaacgtcgg agttctactc
+      361 ctacttatac tcatagccac cgccttcgta ggctacgtcc ttccatgagg ccaaatatca
+      421 ttctgaggtg ccaccgtaat tacaaaccta ttctcagcca tcccttacat cggccaaaca
+      481 ttagtagaat gggcctgagg aggattctca gtagacaacc ctacactaac ccgattcttc
+      541 gccattcact tccttcttcc cttcgtcatt gcaggcctca cattagttca ccttaccctc
+      601 ctacacgaaa caggatccaa taaccctctg ggaatcccat cagactgtga taaaattcca
+      661 ttccacccct actactccac aaaagaccta cttggcttcg cgctcatatt catccccctc
+      721 gcctccctag cactatttgc tccaaacctn ctaggagacc cagaaaactt cacgcccgcc
+      781 aaccctctag ccacnccccc ccacatcaaa ccagaatgat acttcctctt cgcctacgct
+      841 attctccgat ccatccccaa caaactagga ggcgtacttg cactagccgc ctccgtccta
+      901 gtcctattcc tcatcccact actccacaca tccaaactac gttctatgac cttccgccct
+      961 ctctctcaaa tcctattctg aaccctagtc gctaacctcc ttgtcctcac ctgagtagga
+     1021 agccaaccag tagaacaccc attcatcatc atcggccaag tagcctcagc ctcctacttc
+     1081 acaatcatcc taattctatt cccactagta tctatcctag aaaacaaaat acttaaactt
+     1141 taa
+//
+

@@ -1,0 +1,80 @@
+LOCUS       AJ534526                1143 bp    DNA     linear   VRT 25-JUL-2016
+DEFINITION  Chamaea fasciata mitochondrial cytb gene for cytochrome b.
+ACCESSION   AJ534526
+VERSION     AJ534526.1
+KEYWORDS    cytb gene; cytochrome b.
+SOURCE      mitochondrion Chamaea fasciata
+  ORGANISM  Chamaea fasciata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Passeriformes; Sylviidae; Chamaea.
+REFERENCE   1
+  AUTHORS   Helbig,A.J.
+  TITLE     Evolution of Bird Migration: A phylogenetic and biogeographic
+            perspective
+  JOURNAL   (in) Berthold,P., Gwinner,E. and Sonnenschein,E. (Eds.);
+            AVIAN MIGRATION: 3-20;
+            Springer Verlag, Berlin. (2003)
+REFERENCE   2
+  AUTHORS   Bohning-Gaese,K., Schuda,M.D. and Helbig,A.J.
+  TITLE     Weak phylogenetic effects on ecological niches of Sylvia warblers
+  JOURNAL   J. Evol. Biol. 16 (5), 956-965 (2003)
+   PUBMED   14635911
+REFERENCE   3  (bases 1 to 1143)
+  AUTHORS   Helbig,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-DEC-2002) Helbig A.J., Vogelwarte Hiddensee,
+            University of Greifswald, Zum Hochland 17, D-18565 Kloster, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..1143
+                     /organism="Chamaea fasciata"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:190680"
+                     /tissue_type="muscle"
+                     /country="USA:California"
+     gene            1..1143
+                     /gene="cytb"
+     CDS             1..1143
+                     /gene="cytb"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="CAD58933.1"
+                     /db_xref="GOA:Q8HJQ9"
+                     /db_xref="HSSP:1BCC"
+                     /db_xref="InterPro:IPR005797"
+                     /db_xref="InterPro:IPR005798"
+                     /db_xref="InterPro:IPR016174"
+                     /db_xref="InterPro:IPR016175"
+                     /db_xref="UniProtKB/TrEMBL:Q8HJQ9"
+                     /translation="MAPNLRKNHPILKIVNDALIDLPTPSNISSWWNFGSLLGMCLIT
+                     QIVTGLLLAMHYTADTSLAFSSVAHMCRDVQFGWLIRNLHANGASFFFICIYLHIGRG
+                     FYYGSYLNKETWNVGVLLLLALMATAFVGYVLPWGQMSFWGATVITNLFSAIPYIGQT
+                     LVEWAWGGFSVDNPTLTRFFAIHFLLPFLITGLTLVHLTLLHETGSNNPLGIPADCDK
+                     IPFHPYYSTKDVLGFALMFIPLATLALFAPNLLGDPENFTPANPLATPPHIKPEWYFL
+                     FAYAILRSIPNKLGGVLALAASVLVLFLIPLLHTSKLRSMTFRPISQVLFWTLVANLL
+                     ILTWVGSQPVEHPFIIIGQLASFTYFTIILVLFPLASILENKMLKL"
+ORIGIN      
+        1 atggctccca acttacgtaa aaaccaccct atcctaaaaa tcgtcaatga cgccctaatt
+       61 gaccttccaa caccatcaaa catctcatct tgatgaaact tcggatcact tctaggcatg
+      121 tgcctaatca cacaaatcgt cacaggccta ctactagcta tacattacac cgcagacact
+      181 tcactagcct tctcctccgt agctcacata tgccgagacg tccaattcgg ctgactcatc
+      241 cgcaatctac atgcaaacgg agcctcattc ttttttatct gcatctacct acacattgga
+      301 cgaggattct actacggctc ttatctcaac aaagaaacat gaaacgtagg agttctcctc
+      361 ctacttgcac tcatagccac tgctttcgta ggatacgtcc taccttgagg acaaatatca
+      421 ttctgaggcg ctacagtaat cacaaacctg ttctcagcca tcccatacat cggccaaaca
+      481 ctagtagaat gagcatgagg tggattctca gtagataacc ccacactgac ccgattcttc
+      541 gctatccact ttctccttcc tttcctaatc acaggcctca cattagtcca cctcacccta
+      601 ctacacgaaa caggatccaa caacccccta ggaattcccg cagactgcga caaaatccca
+      661 ttccaccctt actactccac aaaagacgtt ctaggcttcg cactcatatt tatcccccta
+      721 gccactctgg ccctattcgc ccctaacctg ctaggagacc cagaaaactt cacacctgcc
+      781 aaccccctgg ccacaccccc ccacatcaaa cccgaatgat acttcctatt tgcttacgcc
+      841 atcttacgat ctatccccaa caaactagga ggcgtactgg ctctagccgc ttccgtccta
+      901 gtcctattcc taatcccact actacacaca tccaaactac gctcaataac cttccgccct
+      961 atctcacaag tcctattctg aacgctagtc gccaaccttc tcattctaac ttgagtaggc
+     1021 agccaaccgg tcgaacaccc cttcatcatc atcggacaat tagcttcatt cacctacttc
+     1081 acaatcattc tagtcctctt tcccctagca tcaatcttag aaaacaaaat actcaaactc
+     1141 taa
+//
+

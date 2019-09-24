@@ -1,0 +1,74 @@
+LOCUS       AJ534542                1143 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Sylvia undata mitochondrial cytb gene for cytochrome b.
+ACCESSION   AJ534542
+VERSION     AJ534542.1
+KEYWORDS    cytb gene; cytochrome b.
+SOURCE      mitochondrion Sylvia undata (Dartford warbler)
+  ORGANISM  Sylvia undata
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Sylviinae; Sylvia.
+REFERENCE   1
+  AUTHORS   Bohning-Gaese,K., Schuda,M.D. and Helbig,A.J.
+  TITLE     Weak phylogenetic effects on ecological niches of Sylvia warblers
+  JOURNAL   J. Evol. Biol. 16 (5), 956-965 (2003)
+   PUBMED   14635911
+REFERENCE   2  (bases 1 to 1143)
+  AUTHORS   Helbig,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-DEC-2002) Helbig A.J., Vogelwarte Hiddensee,
+            University of Greifswald, Zum Hochland 17, D-18565 Kloster, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..1143
+                     /organism="Sylvia undata"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:216216"
+                     /tissue_type="blood"
+                     /country="France:Corsica"
+     gene            1..1143
+                     /gene="cytb"
+     CDS             1..1143
+                     /gene="cytb"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="CAD58949.1"
+                     /db_xref="GOA:Q70VV9"
+                     /db_xref="HSSP:1BCC"
+                     /db_xref="InterPro:IPR005797"
+                     /db_xref="InterPro:IPR005798"
+                     /db_xref="InterPro:IPR016174"
+                     /db_xref="InterPro:IPR016175"
+                     /db_xref="UniProtKB/TrEMBL:Q70VV9"
+                     /translation="MAXNLRKNHPILKVVNDALIDLPTPSNISSWWNFGSLLGLCLIT
+                     QITTGLFLAMHYTADTSLAFASVAHMCRDVQFGWLIRNLHANGASFFFICIYLHIGRG
+                     IYYGSYLNKETWNVGVLLLLTLMATAFVGYVLPWGQMSFWGATVITNLFSAIPYIGQT
+                     LVEWAWGGFSVDNPTLTRFFALHFLLPFVIAGLTLVHLTLLHETGSNNPLGIPSDCDK
+                     IPFHPYYSTKDMLGFALMFIPLASLALFAPNLLGDPENFTPANPLATPPHIKPEWYFL
+                     FAYAILRSIPNKLGGVLALAASVLVLFLMPLLHTSKLRSMTFRPLSQILFWTLVANLL
+                     ILTWVGSQPVEHPFIIIGQLASLSYFTIILVLFPLVSILENKMLKL"
+ORIGIN      
+        1 atggctcnca atctacgtaa aaaccaccca atcctaaaag tcgtcaacga cgccctaatt
+       61 gacctcccaa caccatcaaa catctcatct tgatgaaact tcggatccct cctgggcctt
+      121 tgcctaatca cacaaatcac tacaggccta ttcctagcaa tacattacac agcagacacc
+      181 tcactagcct ttgcctccgt agcccacata tgccgagacg ttcaattcgg ctgactaatc
+      241 cgaaacctac acgcaaacgg agcttcattc ttcttcatct gcatctacct ccacatcggc
+      301 cgaggaatct actacggatc ctacctaaac aaagaaacct gaaatgtcgg agttctcctt
+      361 ctactaaccc ttatagccac cgctttcgta ggctacgtcc ttccatgagg ccaaatatca
+      421 ttctgaggtg ccaccgtaat cacaaaccta ttctcagcca tcccctacat tggccaaaca
+      481 ttagtagaat gagcctgagg cggattctca gtagacaacc ccacattaac ccgattcttc
+      541 gcccttcact tcctcctccc cttcgtcatt gcaggtctca cactagtcca cctcacactt
+      601 ctacacgaaa caggatccaa caatccccta ggaatcccat cagactgcga caaaatccca
+      661 ttccacccct actactccac aaaagacata ctcggcttcg cactcatatt catccccctc
+      721 gcctccctag cactattcgc cccaaacctc ctaggggacc cagaaaactt cacgcccgcc
+      781 aatcccctag ctacaccacc ccacatcaaa ccagagtgat atttcctatt cgcctacgct
+      841 atcctccgat ccatccccaa caaactaggt ggcgtacttg ccctagccgc ttctgtccta
+      901 gtcctattcc tcatgccact actccacaca tccaaactac gttcaataac cttccgccct
+      961 ctatcccaaa tcctattctg aaccttagtc gccaacctac tcatccttac ttgagtaggc
+     1021 agccaaccgg tagaacaccc atttatcatc atcggccaac tagcctcact ctcctacttt
+     1081 acaatcatct tagtcctctt ccccctcgta tccatcctag aaaacaaaat actcaaacta
+     1141 taa
+//
+

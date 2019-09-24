@@ -1,0 +1,71 @@
+LOCUS       AJ534548                1041 bp    DNA     linear   VRT 01-DEC-2003
+DEFINITION  Sylvia abyssinica mitochondrial partial cytb gene for cytochrome b.
+ACCESSION   AJ534548
+VERSION     AJ534548.1
+KEYWORDS    cytb gene; cytochrome b.
+SOURCE      mitochondrion Pseudoalcippe abyssinica
+  ORGANISM  Pseudoalcippe abyssinica
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Passeriformes; Timaliidae;
+            Pseudoalcippe.
+REFERENCE   1
+  AUTHORS   Bohning-Gaese,K., Schuda,M.D. and Helbig,A.J.
+  TITLE     Weak phylogenetic effects on ecological niches of Sylvia warblers
+  JOURNAL   J. Evol. Biol. 16 (5), 956-965 (2003)
+   PUBMED   14635911
+REFERENCE   2  (bases 1 to 1041)
+  AUTHORS   Helbig,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-DEC-2002) Helbig A.J., Vogelwarte Hiddensee,
+            University of Greifswald, Zum Hochland 17, D-18565 Kloster, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..1041
+                     /organism="Pseudoalcippe abyssinica"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:528194"
+                     /tissue_type="muscle"
+                     /country="Kenya:Aberdare Mountains"
+     gene            <1..1041
+                     /gene="cytb"
+     CDS             <1..1041
+                     /gene="cytb"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="CAD58955.1"
+                     /db_xref="GOA:Q70VV3"
+                     /db_xref="InterPro:IPR005797"
+                     /db_xref="InterPro:IPR005798"
+                     /db_xref="InterPro:IPR016174"
+                     /db_xref="InterPro:IPR016175"
+                     /db_xref="UniProtKB/TrEMBL:Q70VV3"
+                     /translation="GSLLGVCLVTQITTGLLLAMHYTADTSLAFSSVAHVCRDVQFGW
+                     LIRNLHANGASFFFICIYLHIGRGIYYGSYLNKETWNVGVVLLLALMATAFVGYVLPW
+                     GQMSFWGATVITNLFSAIPYIGQTLVEWLWGGFSVDNPTLTRFFALHFLLPFVIAGLT
+                     LVHLTLLHESGSNNPLGIPSDCDMIPFHPYYSTKDXLGFALMFIPLASLALFAPNLLG
+                     DPENFTPANPLATPPHIKPEWYFLFAYAILRSIPNKLGGVLALAASVLVLFLMPLLHT
+                     SKLRSMTFRPLSQILFWALVANLLVLTWVGSQPVEHPFIIIGQLASISYFTIILVLFP
+                     LVSILENKMLKL"
+ORIGIN      
+        1 ggatcactcc tgggtgtctg cctagtcaca caaatcacca caggactact actagccata
+       61 cactacacag cagacacttc attagccttt tcctccgtag ctcacgtatg ccgagatgta
+      121 caattcggat gactaatccg aaacctgcac gcaaacggag cctcattctt cttcatctgc
+      181 atctacttac acatcggccg aggaatctac tacggctctt atctaaataa agaaacctga
+      241 aacgtcggag ttgttctcct actagcccta atagccactg ccttcgtagg ctacgttctc
+      301 ccatgaggnc aaatatcatt ctgaggtgct acagtcatca caaacctatt ctcagccatc
+      361 ccctacatcg gccaaacact agtagaatgg ctctggggag gattctccgt tgataacccc
+      421 acactaactc gattcttcgc cctacacttc ctcctcccct tcgtcatcgc aggccttaca
+      481 ctagttcacc tcaccctcct acacgaatcc ggatctaaca accccctagg aatcccctca
+      541 gactgcgaca taattccatt ccacccttac tactccacaa aagacgnntt aggctttgca
+      601 ctaatattca tccctcttgc ctctctggca ttattcgccc ctaaccttct aggagaccca
+      661 gaaaatttca cgcccgccaa ccccctagcc acacctcctc acatcaaacc agaatgatac
+      721 ttcctatttg cctacgccat cttgcgatcc atcccaaaca aactcggtgg cgtactagcc
+      781 ctggccgcct cagtcctagt tctcttcctc atacccctcc tgcacacatc caaactacga
+      841 tcaataacct tccgcccatt atcacaaatc ctattctgag ccctagtagc caacctcctc
+      901 gtcctaacct gagtaggaag ccagccagta gaacacccat tcattatcat tggacaacta
+      961 gcctcaattt cctacttcac gatcatccta gtcctcttcc ccctagtgtc catcctggag
+     1021 aacaaaatac ttaaacttta a
+//
+

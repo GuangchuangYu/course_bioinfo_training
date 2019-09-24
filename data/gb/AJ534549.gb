@@ -1,0 +1,71 @@
+LOCUS       AJ534549                1041 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Sylvia borin mitochondrial partial cytb gene for cytochrome b.
+ACCESSION   AJ534549
+VERSION     AJ534549.1
+KEYWORDS    cytb gene; cytochrome b.
+SOURCE      mitochondrion Sylvia borin (garden warbler)
+  ORGANISM  Sylvia borin
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Sylviinae; Sylvia.
+REFERENCE   1
+  AUTHORS   Bohning-Gaese,K., Schuda,M.D. and Helbig,A.J.
+  TITLE     Weak phylogenetic effects on ecological niches of Sylvia warblers
+  JOURNAL   J. Evol. Biol. 16 (5), 956-965 (2003)
+   PUBMED   14635911
+REFERENCE   2  (bases 1 to 1041)
+  AUTHORS   Helbig,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-DEC-2002) Helbig A.J., Vogelwarte Hiddensee,
+            University of Greifswald, Zum Hochland 17, D-18565 Kloster, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..1041
+                     /organism="Sylvia borin"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:73324"
+                     /tissue_type="muscle"
+                     /country="Germany"
+     gene            <1..1041
+                     /gene="cytb"
+     CDS             <1..1041
+                     /gene="cytb"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="CAD58956.1"
+                     /db_xref="GOA:Q70VV2"
+                     /db_xref="InterPro:IPR005797"
+                     /db_xref="InterPro:IPR005798"
+                     /db_xref="InterPro:IPR016174"
+                     /db_xref="InterPro:IPR016175"
+                     /db_xref="UniProtKB/TrEMBL:Q70VV2"
+                     /translation="GSLLGLCLVTQITTGLLLAMHYTADTSLAFSSVAXMCQDVQFSW
+                     LIRNLYANGASFFFICIYLHIGRGIYYGSYLNKETWNVRVILLLTLMATSFVGYVLPW
+                     GQMSFWGATVITNLFSAIPYISQMLVEWAWGGFSVDNPPLTWFFALHFLLLFIIAGLT
+                     LVHLTLLQESGSNNPLGIPSDCDKIPFHSYYSTKDVLGFTLMFIPLASLALFAPNLLG
+                     DPENFAPANPLATPPHIKPEWYFLXAYAILRSIPNKLGGVLALAASVLVLSLIPLLHT
+                     SKLRSMTFRPLSQILFWTLVANLLVLTWVGSQPVEHPXIIIGQLASLSYFTIILILFP
+                     LVSILENKMLKL"
+ORIGIN      
+        1 ggatcactcc taggcctctg cctagtcaca cagatcacca caggcctatt actagccata
+       61 cactacacag cagatacctc attagccttt tcctccgtag ctcanatatg ccaagacgta
+      121 caattcagct gactaatccg aaacctatac gcaaacggag cctcattctt cttcatttgc
+      181 atctaccttc acattggccg aggaatctac tacggctctt acctaaacaa agaaacctga
+      241 aacgtacgag ttatcctcct attaaccctt atagctacca gcttcgtagg ttatgttctt
+      301 ccatgaggac aaatatcatt ctgaggcgct acagtcatca caaacctgtt ctcagccatc
+      361 ccatacatca gccaaatgct agtagagtgg gcctgaggtg gattctcagt agacaacccc
+      421 ccactgacct gattcttcgc cctacacttc ctccttctgt tcattattgc aggtcttaca
+      481 ctagtccacc tcaccctact acaagaatct ggatccaaca accccctggg gatcccctca
+      541 gattgcgaca aaatcccatt ccactcttac tattccacaa aggatgtcct aggctttaca
+      601 ctcatattta tccccctcgc ctccttagca ctattcgccc ctaaccttct aggggaccca
+      661 gaaaatttcg cgcccgccaa ccccctagct actcctcccc acatcaaacc agaatggtac
+      721 ttcctattng cctatgctat cctacgatcc attccaaaca aacttggtgg tgtactagcc
+      781 ctagccgcct ctgtcctagt cctctccctc attcccctac tacacacatc taaactacgc
+      841 tcaataactt tccgaccctt atcacaaatc ttattctgaa ccctagtcgc caacctcctt
+      901 gttctcacct gagtaggaag ccaaccagta gaacacccct tnatcatcat tgggcaacta
+      961 gcntcgctct cctacttcac aatcattcta atcctattcc cccttgtatc tattctagaa
+     1021 aacaaaatac tcaaactata a
+//
+

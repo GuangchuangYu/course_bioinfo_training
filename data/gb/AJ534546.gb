@@ -1,0 +1,74 @@
+LOCUS       AJ534546                1143 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Sylvia melanothorax mitochondrial cytb gene for cytochrome b.
+ACCESSION   AJ534546
+VERSION     AJ534546.1
+KEYWORDS    cytb gene; cytochrome b.
+SOURCE      mitochondrion Sylvia melanothorax (cyprus warbler)
+  ORGANISM  Sylvia melanothorax
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Sylviinae; Sylvia.
+REFERENCE   1
+  AUTHORS   Bohning-Gaese,K., Schuda,M.D. and Helbig,A.J.
+  TITLE     Weak phylogenetic effects on ecological niches of Sylvia warblers
+  JOURNAL   J. Evol. Biol. 16 (5), 956-965 (2003)
+   PUBMED   14635911
+REFERENCE   2  (bases 1 to 1143)
+  AUTHORS   Helbig,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-DEC-2002) Helbig A.J., Vogelwarte Hiddensee,
+            University of Greifswald, Zum Hochland 17, D-18565 Kloster, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..1143
+                     /organism="Sylvia melanothorax"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:216218"
+                     /tissue_type="blood"
+                     /country="Israel"
+     gene            1..1143
+                     /gene="cytb"
+     CDS             1..1143
+                     /gene="cytb"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="CAD58953.1"
+                     /db_xref="GOA:Q70VV5"
+                     /db_xref="HSSP:1BCC"
+                     /db_xref="InterPro:IPR005797"
+                     /db_xref="InterPro:IPR005798"
+                     /db_xref="InterPro:IPR016174"
+                     /db_xref="InterPro:IPR016175"
+                     /db_xref="UniProtKB/TrEMBL:Q70VV5"
+                     /translation="MAPNLRKNHPILKIVNDALIDLPTPSNISSWWNFGSLLGLCLIT
+                     QITTGLFLAMHYTADTSLAFASVAHMCRDVQFGWLIRNLHANGASFFFICIYLHIGRG
+                     IYYGSYLNKETWNVGVLLLLTLMATAFVGYVLPWGQMSFWGATVITNLFSAIPYVGQT
+                     LVEWAWGGFSVDNPTLTRFFALHFLLPFVIAGLTLVHLTLLHETGSNNPLGIPSDCDK
+                     IPFHPYYSTKDLLGFALMFIPLASLALFAPNLLGDPENFTPANPLATPPHIKPEWYFL
+                     FAYAILRSIPNKLGGVLALAASVLVLFLMPLLHTSKLRSMTFRPLSQILFWALVANLL
+                     ILTWVGSQPVEHPFIIIGQLASLSYFTIILILFPLVSILENKMLKL"
+ORIGIN      
+        1 atggctccca atctacgcaa aaatcacccc atcctaaaaa tcgtcaacga cgctcttatc
+       61 gacctcccaa caccatcaaa catctcatcc tgatgaaact tcggatcact cctaggcctc
+      121 tgcctaatca cacaaatcac cacaggccta ttcttagcga tacattacac agcagacacc
+      181 tcactagcct ttgcctccgt agcccacata tgccgagacg tacaattcgg ctgactaatc
+      241 cgaaacctac acgcaaatgg agcctcattc ttcttcattt gcatctacct ccacattggc
+      301 cgaggaatct actacggatc ctacctaaac aaagaaacct gaaacgtcgg agtcctactc
+      361 ctactaaccc tcatagccac cgctttcgta ggttacgtcc taccatgagg ccaaatatca
+      421 ttttgaggtg ccaccgtaat tacaaaccta ttctcagcca tcccctacgt aggccaaaca
+      481 ctagtagaat gagcctgagg cggattttca gtagacaacc ctacattaac ccgattcttc
+      541 gcccttcatt tcctcctccc tttcgtcatc gcaggcctca cactagtcca ccttacactc
+      601 ctacacgaaa caggatccaa taaccctcta ggaatcccat cagactgcga caaaatccca
+      661 ttccacccct actactccac aaaagaccta cttggcttcg cacttatatt catcccccta
+      721 gcctccctag ccctatttgc cccaaacctg ctaggggacc cagaaaactt tacgcccgcc
+      781 aaccccctag ccacaccacc ccacatcaaa ccagaatgat acttcctatt tgcctacgcc
+      841 attctccgat ccatccccaa caaactaggc ggcgtacttg ccctagctgc ctccgtccta
+      901 gtcctattcc taataccatt actccacaca tccaagctac gctcaatgac cttccgcccc
+      961 ctatcccaaa tcctattctg agccttagtc gctaacctac tcatccttac ctgagtaggc
+     1021 agccaaccgg tagaacaccc cttcatcatc atcggtcaac tagcctcact ctcctacttc
+     1081 acaatcatcc taattctctt cccccttgta tccatcctag aaaacaaaat actcaaacta
+     1141 taa
+//
+

@@ -1,0 +1,74 @@
+LOCUS       AJ534540                1143 bp    DNA     linear   VRT 26-JUL-2016
+DEFINITION  Sylvia deserticola mitochondrial cytb gene for cytochrome b.
+ACCESSION   AJ534540
+VERSION     AJ534540.1
+KEYWORDS    cytb gene; cytochrome b.
+SOURCE      mitochondrion Sylvia deserticola (Tristram's warbler)
+  ORGANISM  Sylvia deserticola
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Passeriformes; Sylviidae;
+            Sylviinae; Sylvia.
+REFERENCE   1
+  AUTHORS   Bohning-Gaese,K., Schuda,M.D. and Helbig,A.J.
+  TITLE     Weak phylogenetic effects on ecological niches of Sylvia warblers
+  JOURNAL   J. Evol. Biol. 16 (5), 956-965 (2003)
+   PUBMED   14635911
+REFERENCE   2  (bases 1 to 1143)
+  AUTHORS   Helbig,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-DEC-2002) Helbig A.J., Vogelwarte Hiddensee,
+            University of Greifswald, Zum Hochland 17, D-18565 Kloster, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..1143
+                     /organism="Sylvia deserticola"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:216228"
+                     /tissue_type="blood"
+                     /country="Morocco"
+     gene            1..1143
+                     /gene="cytb"
+     CDS             1..1143
+                     /gene="cytb"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="CAD58947.1"
+                     /db_xref="GOA:Q70VW1"
+                     /db_xref="HSSP:1BCC"
+                     /db_xref="InterPro:IPR005797"
+                     /db_xref="InterPro:IPR005798"
+                     /db_xref="InterPro:IPR016174"
+                     /db_xref="InterPro:IPR016175"
+                     /db_xref="UniProtKB/TrEMBL:Q70VW1"
+                     /translation="MAPNLRKXHPILKVVNDALIDLPTPSNISSWWNFGSLLGLCLIT
+                     QITTGLFLAMHYTADTSLAFASVAHMCRDVQFGWLIRNLHANGASFFFICIYLHIGRG
+                     IYYGSYLNKETWNVGVLLLLTLMATAFVGYVLPWGQMSFWGATVITNLFSAIPYIGQT
+                     LVEWAWGGFSVDNPTLTRFFALHFLLPFVXAGLTLVHLTLLHETGSNXPLGIPSDCDK
+                     IPXXPYYSTKDXLGFALMFIPLASLALFAPNLLGDPENFTPANPLATPPHIKPEWYFL
+                     FAYAILRSIPNKLGGVLALAASVLVLFLMPLLHTSKLRSMTFRPLSQILFWTLVANLL
+                     ILTWVGSQPVEHPFIIIGQLASLSYFTIILILFPLVSILENKMLKL"
+ORIGIN      
+        1 atggcaccca atctacgtaa aaancaccca atcctaaaag tcgtcaacga cgccctaatt
+       61 gacctcccaa caccatcaaa catctcatcc tgatgaaact tcggatccct cctgggcctt
+      121 tgcctaatca cacaaatcac tacaggccta ttcctagcaa tacattacac agcagacacc
+      181 tcactagcct ttgcctccgt agcccacata tgccgagacg tacaattcgg ctgactaatc
+      241 cgaaacctgc acgcaaacgg agcttcattc ttcttcatct gcatctacct ccacatcggc
+      301 cgaggaatct actacggatc ctacctgaac aaagaaacct gaaatgttgg agttctcctt
+      361 ctattaaccc ttatagctac cgctttcgta ggctacgtcc ttccatgagg ccaaatatca
+      421 ttctgaggtg ctaccgtaat tacaaaccta ttctcagcca tcccctacat tggccaaaca
+      481 ttagtagaat gagcctgagg agggttctca gtagacaacc ccacactaac tcgattcttc
+      541 gcccttcact tcctcctccc cttcgtcatn gcaggcctca cactagtcca cctcacactc
+      601 ctacacgaaa caggatccaa caanccccta ggaatcccat cagactgcga caaaatccca
+      661 ttnnncccct actactccac aaaagacnta ctcggcttcg cactcatgtt catccccctc
+      721 gcctctctag cactatttgc cccaaacctc ctaggggacc cagaaaactt cacgcccgcc
+      781 aaccccctag ctacaccgcc ccacatcaaa ccagagtgat atttcctatt cgcctacgct
+      841 atcctccgat ccatccccaa caaactaggt ggcgtacttg ccctagccgc ttccgtccta
+      901 gtcctattcc ttatgccact actccacaca tccaaactac gntcaataac cttccgcccc
+      961 ctatcccaaa tcctattctg aaccttagtc gccaacctac tcatccttac ttgagtaggc
+     1021 agccaaccgg tagaacaccc cttcatcatc atcggccaac tagcctcact ctcttacttt
+     1081 acaatcatcc taatcctctt cccccttgta tccatcctag aaaacaaaat actcaaacta
+     1141 taa
+//
+

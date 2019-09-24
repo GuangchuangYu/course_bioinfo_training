@@ -1,0 +1,81 @@
+LOCUS       AJ534529                1143 bp    DNA     linear   VRT 25-JUL-2016
+DEFINITION  Sylvia subcaeruleum mitochondrial cytb gene for cytochrome b.
+ACCESSION   AJ534529
+VERSION     AJ534529.1
+KEYWORDS    cytb gene; cytochrome b.
+SOURCE      mitochondrion Curruca subcoerulea (Rufous-vented warbler)
+  ORGANISM  Curruca subcoerulea
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Passeriformes; Sylvioidea;
+            Sylviidae; Sylviinae; Curruca.
+REFERENCE   1
+  AUTHORS   Helbig,A.J.
+  TITLE     Evolution of Bird Migration: A phylogenetic and biogeographic
+            perspective
+  JOURNAL   (in) Berthold,P., Gwinner,E. and Sonnenschein,E. (Eds.);
+            AVIAN MIGRATION: 3-20;
+            Springer Verlag, Berlin. (2003)
+REFERENCE   2
+  AUTHORS   Bohning-Gaese,K., Schuda,M.D. and Helbig,A.J.
+  TITLE     Weak phylogenetic effects on ecological niches of Sylvia warblers
+  JOURNAL   J. Evol. Biol. 16 (5), 956-965 (2003)
+   PUBMED   14635911
+REFERENCE   3  (bases 1 to 1143)
+  AUTHORS   Helbig,A.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-DEC-2002) Helbig A.J., Vogelwarte Hiddensee,
+            University of Greifswald, Zum Hochland 17, D-18565 Kloster, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..1143
+                     /organism="Curruca subcoerulea"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:187441"
+                     /tissue_type="blood"
+                     /country="South Africa"
+     gene            1..1143
+                     /gene="cytb"
+     CDS             1..1143
+                     /gene="cytb"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="CAD58936.1"
+                     /db_xref="GOA:Q70VX2"
+                     /db_xref="HSSP:1BCC"
+                     /db_xref="InterPro:IPR005797"
+                     /db_xref="InterPro:IPR005798"
+                     /db_xref="InterPro:IPR016174"
+                     /db_xref="InterPro:IPR016175"
+                     /db_xref="UniProtKB/TrEMBL:Q70VX2"
+                     /translation="MAPNLRKNHPILKIVNDALIDLPTPSNISSWWNFGSLLGLCLIT
+                     QIVTGLFLAMHYTADTSLAFASVTHICRDVQFGWLIRNLHANGASFFFICIYIHIGRG
+                     IYYGSYLNKETWNVGVILLLTLMATAFVGYVLPWGQMSLWGATVITNLLSAIPYIGQT
+                     LVEWAWGGFSVDNPTLTRFFALHFLLPFVIAGLTLVHLTLLHETGSNNPLGIPSDCXK
+                     IPFHPYYSTKDILGFALMFIPLASLALFAPNLLGDPENFTPANPLATPPHIKPEWYFL
+                     FAYAILRSIPSKLGGVLALAASVLVLFLMPLLHTSKLRSMTFRPLSQILFWALVANLL
+                     ILTWVGSQPVEHPFIIIGQLASLSYFTIILILFPLVSILENKMLKL"
+ORIGIN      
+        1 atggcaccca atcttcgcaa aaaccatcct atcctaaaaa tcgtcaacga cgctctcatt
+       61 gacctcccaa caccatcaaa catctcctcc tgatgaaact tcggatcact actaggcctc
+      121 tgcttaatta cacaaatcgt cacaggccta ttcctagcaa tacactacac ggcagacacc
+      181 tcactggctt tcgcctctgt aactcacatc tgccgagacg tacaattcgg ctgactaatt
+      241 cggaacctac atgcaaacgg agcctctttc ttcttcatct gcatctacat ccacattggt
+      301 cgaggaatct actatggctc ctacctaaat aaagaaacct gaaacgtagg agttatcctc
+      361 ctactaacac tcatagccac tgccttcgta ggctacgtcc ttccttgagg acaaatatca
+      421 ctctgaggcg ctaccgtaat cacaaaccta ctctcagcta tcccatacat tggccaaaca
+      481 ctagtagaat gagcctgagg ggggttctca gtagacaacc ccacactcac tcgattcttt
+      541 gcccttcatt tccttcttcc ctttgtgatc gcaggcctaa cactagtcca cctcactctt
+      601 ctacacgaaa caggctctaa taacccacta ggaatcccat cagactgcga naaaattcca
+      661 ttccacccat actactctac aaaagacatc ctcggcttcg cattaatatt catccccctt
+      721 gcttcactag cactatttgc tcccaaccta ctaggagacc cagaaaactt cacgcccgcc
+      781 aaccctctgg ccacaccacc ccacatcaag ccagaatgat acttcctctt cgcctacgcc
+      841 atcctccgat ctatccctag caaactaggc ggcgtactcg ccctagccgc ctccgtacta
+      901 gtcctattcc tcataccact actccacaca tcaaaacttc gctcaatgac cttccgccct
+      961 ctttctcaaa ttctattctg agccctagta gccaacctcc tcattctcac ctgagtaggc
+     1021 agccaaccag tagaacaccc cttcatcatc atcggccaac tagcctcact ctcttatttc
+     1081 acaatcattc taatcctctt cccccttgta tccatcctag aaaacaaaat actcaaactt
+     1141 taa
+//
+
