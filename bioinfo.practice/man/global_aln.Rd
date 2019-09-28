@@ -19,6 +19,9 @@ smuAlign object
 \description{
 global alignment
 }
+\references{
+\url{https://mp.weixin.qq.com/s/4DL-pJVItOhkYJAbPEg7BQ}
+}
 \author{
 Guangchuang Yu
 }

@@ -7,6 +7,7 @@
 ##' @param score score system
 ##' @return smuAlign object
 ##' @export
+##' @references \url{https://mp.weixin.qq.com/s/4DL-pJVItOhkYJAbPEg7BQ}
 ##' @author Guangchuang Yu
 global_aln <- function(X, Y, score = list(match = 5, mismatch = -2, indel = -6)) {
     seq.x <- unlist(strsplit(X, ''))
