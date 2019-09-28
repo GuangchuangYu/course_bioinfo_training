@@ -75,6 +75,7 @@ global_aln <- function(X, Y, score = list(match = 5, mismatch = -2, indel = -6))
         }
     }
 
+    gap_pos <- which(ax == '-' | ay == '-')
     ax <- paste(ax, collapse='')
     ay <- paste(ay, collapse='')
 
@@ -82,7 +83,8 @@ global_aln <- function(X, Y, score = list(match = 5, mismatch = -2, indel = -6))
         list(seq = c(X, Y),
              aln = c(ax, ay),
              score = score,
-             matrix = mat
+             matrix = mat,
+             gap_position = gap_pos
              ),
         class = "smuAlign"
     )
@@ -102,7 +104,9 @@ print.smuAlign <- function(x, ...) {
     print(mat)
     cat("\nAlignment:\n")
     cat(x$aln[1], "\n")
-    cat(paste0(rep("|", nchar(x$aln[1])), collapse = ""), "\n")
+    bar <- rep("|", nchar(x$aln[1]))
+    bar[x$gap_position] <- " "
+    cat(paste0(bar, collapse = ""), "\n")
     cat(x$aln[2],"\n\n")
     cat("Optimum alignment mat: ", mat[length(mat)],"\n")
 }
