@@ -1,6 +1,7 @@
 library(ggplot2)
 library(ggtree)
 
+
 set.seed(2019)
 x = rtree(10)
 x$tip.label = sub("t", "virus", x$tip.label)
@@ -16,7 +17,13 @@ p2 <- p +
     geom_segment(aes(x=x,xend=xend, y=y, yend=y), 
     data=d2, color='firebrick', size=2, lineend='round') +
     xlim(NA, 3.05) + 
-    geom_label(aes(x = branch, label=branch.length))
+    geom_label2(aes(x = branch, label=branch.length,
+                    subset = (node != 11)
+                    )
+                )
+
+ggsave(p2, file="genetic-distance.png",
+    width = 8, height = 6)
 
 
  
