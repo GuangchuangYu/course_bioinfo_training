@@ -4,8 +4,8 @@ Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
 
 Host:    ygc-smu (AVX2, FMA3, 15 GB RAM)
 Command: iqtree -s flu_seq_aln.fas
-Seed:    368560 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Mon Sep 30 21:40:19 2019
+Seed:    442101 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Oct  1 10:18:10 2019
 Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
 
 HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
@@ -43,8 +43,9 @@ AY180460|A/Quail/Nanchang/12-340/2000|H1N1|2000 -> AY180460_A_Quail_Nanchang_12-
 WARNING: 2 sequences contain more than 50% gaps/ambiguity
 ****  TOTAL                                              13.27%  0 sequences failed composition chi2 test (p-value<5%; df=3)
 
+NOTE: Restoring information from model checkpoint file flu_seq_aln.fas.model.gz
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+CHECKPOINT: Initial tree restored
 NOTE: ModelFinder requires 1 MB RAM!
 ModelFinder will test 286 DNA models (sample size: 1698) ...
  No. Model         -LnL         df  AIC          AICc         BIC
@@ -87,7 +88,7 @@ ModelFinder will test 286 DNA models (sample size: 1698) ...
  79  K3P           7667.265     21  15376.530    15377.081    15490.711
  80  K3P+I         7496.158     22  15036.315    15036.919    15155.934
  81  K3P+G4        7497.230     22  15038.460    15039.064    15158.078
- 82  K3P+I+G4      7496.476     23  15038.952    15039.611    15164.007
+ 82  K3P+I+G4      7496.476     23  15038.951    15039.611    15164.007
  83  K3P+R2        7493.167     23  15032.333    15032.993    15157.389
  84  K3P+R3        7493.158     25  15036.317    15037.094    15172.247
  92  K3Pu+F        7606.655     24  15261.310    15262.027    15391.803
@@ -122,7 +123,7 @@ ModelFinder will test 286 DNA models (sample size: 1698) ...
 149  TPM3u+F+R3    7418.368     28  14892.736    14893.709    15044.978
 157  TIMe          7665.048     22  15374.095    15374.700    15493.714
 158  TIMe+I        7494.592     23  15035.183    15035.843    15160.239
-159  TIMe+G4       7495.851     23  15037.702    15038.361    15162.757
+159  TIMe+G4       7495.851     23  15037.701    15038.361    15162.757
 160  TIMe+I+G4     7494.446     24  15036.893    15037.610    15167.386
 161  TIMe+R2       7491.665     24  15031.331    15032.048    15161.824
 162  TIMe+R3       7491.662     26  15035.325    15036.165    15176.692
@@ -169,7 +170,7 @@ ModelFinder will test 286 DNA models (sample size: 1698) ...
 252  TVM+F+R2      7404.884     28  14865.767    14866.740    15018.009
 253  TVM+F+R3      7404.881     30  14869.763    14870.879    15032.879
 261  SYM           7636.757     24  15321.513    15322.230    15452.006
-262  SYM+I         7470.036     25  14990.073    14990.851    15126.003
+262  SYM+I         7470.036     25  14990.073    14990.850    15126.003
 263  SYM+G4        7469.029     25  14988.058    14988.835    15123.988
 264  SYM+I+G4      7467.294     26  14986.588    14987.428    15127.955
 265  SYM+R2        7466.181     26  14984.362    14985.202    15125.729
@@ -186,8 +187,8 @@ Bayesian Information Criterion:         TIM2+F+I
 Best-fit model: TIM2+F+I chosen according to BIC
 
 All model information printed to flu_seq_aln.fas.model.gz
-CPU time for ModelFinder: 1.065 seconds (0h:0m:1s)
-Wall-clock time for ModelFinder: 1.096 seconds (0h:0m:1s)
+CPU time for ModelFinder: 0.009 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 0.009 seconds (0h:0m:0s)
 
 NOTE: 0 MB RAM (0 GB) is required!
 Estimate model parameters (epsilon = 0.100)
@@ -199,7 +200,7 @@ Optimal log-likelihood: -7404.876
 Rate parameters:  A-C: 2.28967  A-G: 12.57328  A-T: 2.28967  C-G: 1.00000  C-T: 18.10432  G-T: 1.00000
 Base frequencies:  A: 0.343  C: 0.191  G: 0.220  T: 0.246
 Proportion of invariable sites: 0.480
-Parameters optimization took 4 rounds (0.012 sec)
+Parameters optimization took 4 rounds (0.013 sec)
 Computing ML distances based on estimated model parameters... 0.000 sec
 Computing BIONJ tree...
 0.000 seconds
@@ -207,32 +208,30 @@ Log-likelihood of BIONJ tree: -7400.741
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Generating 98 parsimony trees... 0.043 second
-Computing log-likelihood of 93 initial trees ... 0.058 seconds
+Generating 98 parsimony trees... 0.039 second
+Computing log-likelihood of 88 initial trees ... 0.056 seconds
 Current best score: -7400.741
 
 Do NNI search on 20 best initial trees
 Estimate model parameters (epsilon = 0.100)
 BETTER TREE FOUND at iteration 1: -7400.737
-Iteration 10 / LogL: -7400.811 / Time: 0h:0m:0s
-Iteration 20 / LogL: -7401.362 / Time: 0h:0m:0s
+Iteration 10 / LogL: -7402.867 / Time: 0h:0m:0s
+Iteration 20 / LogL: -7400.836 / Time: 0h:0m:0s
 Finish initializing candidate tree set (1)
-Current best tree score: -7400.737 / CPU time: 0.166
+Current best tree score: -7400.737 / CPU time: 0.156
 Number of iterations: 20
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
+Iteration 30 / LogL: -7400.972 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 40 / LogL: -7401.354 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 50 / LogL: -7400.894 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 60 / LogL: -7402.673 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 70 / LogL: -7400.810 / Time: 0h:0m:0s (0h:0m:0s left)
 UPDATE BEST LOG-LIKELIHOOD: -7400.737
-Iteration 30 / LogL: -7400.896 / Time: 0h:0m:0s (0h:0m:0s left)
-UPDATE BEST LOG-LIKELIHOOD: -7400.737
-Iteration 40 / LogL: -7402.236 / Time: 0h:0m:0s (0h:0m:0s left)
-Iteration 50 / LogL: -7403.554 / Time: 0h:0m:0s (0h:0m:0s left)
-Iteration 60 / LogL: -7400.739 / Time: 0h:0m:0s (0h:0m:0s left)
-Iteration 70 / LogL: -7401.079 / Time: 0h:0m:0s (0h:0m:0s left)
-Iteration 80 / LogL: -7401.914 / Time: 0h:0m:0s (0h:0m:0s left)
-Iteration 90 / LogL: -7403.931 / Time: 0h:0m:0s (0h:0m:0s left)
-UPDATE BEST LOG-LIKELIHOOD: -7400.737
-Iteration 100 / LogL: -7400.737 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 80 / LogL: -7402.566 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 90 / LogL: -7402.759 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 100 / LogL: -7402.030 / Time: 0h:0m:0s (0h:0m:0s left)
 TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:0s
 
 --------------------------------------------------------------------
@@ -250,10 +249,10 @@ BEST SCORE FOUND : -7400.737
 Total tree length: 1.116
 
 Total number of iterations: 102
-CPU time used for tree search: 0.481 sec (0h:0m:0s)
-Wall-clock time used for tree search: 0.505 sec (0h:0m:0s)
-Total CPU time used: 0.501 sec (0h:0m:0s)
-Total wall-clock time used: 0.525 sec (0h:0m:0s)
+CPU time used for tree search: 0.468 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.493 sec (0h:0m:0s)
+Total CPU time used: 0.486 sec (0h:0m:0s)
+Total wall-clock time used: 0.514 sec (0h:0m:0s)
 
 Analysis results written to: 
   IQ-TREE report:                flu_seq_aln.fas.iqtree
@@ -261,4 +260,4 @@ Analysis results written to:
   Likelihood distances:          flu_seq_aln.fas.mldist
   Screen log file:               flu_seq_aln.fas.log
 
-Date and Time: Mon Sep 30 21:40:21 2019
+Date and Time: Tue Oct  1 10:18:10 2019

@@ -2,7 +2,7 @@ IQ-TREE 1.6.12 built Sep 30 2019
 
 Input file name: flu_seq_aln.fas
 Type of analysis: ModelFinder + tree reconstruction
-Random seed number: 368560
+Random seed number: 442101
 
 REFERENCES
 ----------
@@ -224,7 +224,7 @@ Corrected Akaike information criterion (AICc) score: 14854.3145
 Bayesian information criterion (BIC) score: 14994.8416
 
 Total tree length (sum of branch lengths): 1.1159
-Sum of internal branch lengths: 0.7305 (65.4645% of tree length)
+Sum of internal branch lengths: 0.7305 (65.4644% of tree length)
 
 NOTE: Tree is UNROOTED although outgroup taxon 'AY619961_A_swine_Saskatchewan_18789_02_H1N1_2002' is drawn at root
 
@@ -252,12 +252,12 @@ NOTE: Tree is UNROOTED although outgroup taxon 'AY619961_A_swine_Saskatchewan_18
 
 Tree in newick format:
 
-(AY619961_A_swine_Saskatchewan_18789_02_H1N1_2002:0.0808932599,(AY701753_A_swine_IDT_Re230_92_H1N1_1992:0.0135901585,(CY009892_A_Swine_Spain_50047_2003_H1N1_2003:0.0164041762,(CY010580_A_swine_Spain_53207_2004_H1N1_2004:0.0142235097,CY010572_A_swine_Spain_51915_2003_H1N1_2003:0.0183118504):0.0119934774):0.0429398712):0.1000374644,((((AY233393_A_duck_NC_91347_01_H1N2_2001:0.0138222024,AY129156_A_Swine_Korea_CY02_02_H1N2_2002:0.0206358482):0.0564762255,AY377929_A_swine_Taichung_200-8_2002_H1N1_2002:0.0685475109):0.0187105063,CY009916_A_swine_Tennessee_25_1977_H1N1_1977:0.0247825685):0.0970151702,(AY861443_A_swine_Bakum_1832_2000_H1N2_2000:0.0868078232,AY180460_A_Quail_Nanchang_12-340_2000_H1N1_2000:0.0273620819):0.1805343410):0.2228084669);
+(AY619961_A_swine_Saskatchewan_18789_02_H1N1_2002:0.0808946143,(AY701753_A_swine_IDT_Re230_92_H1N1_1992:0.0135906296,(CY009892_A_Swine_Spain_50047_2003_H1N1_2003:0.0164034454,(CY010580_A_swine_Spain_53207_2004_H1N1_2004:0.0142235097,CY010572_A_swine_Spain_51915_2003_H1N1_2003:0.0183118504):0.0119934774):0.0429396999):0.1000368604,((((AY233393_A_duck_NC_91347_01_H1N2_2001:0.0138224215,AY129156_A_Swine_Korea_CY02_02_H1N2_2002:0.0206361311):0.0564769701,AY377929_A_swine_Taichung_200-8_2002_H1N1_2002:0.0685478685):0.0187105436,CY009916_A_swine_Tennessee_25_1977_H1N1_1977:0.0247835936):0.0970146927,(AY861443_A_swine_Bakum_1832_2000_H1N2_2000:0.0868075374,AY180460_A_Quail_Nanchang_12-340_2000_H1N1_2000:0.0273616688):0.1805356536):0.2228087357);
 
 TIME STAMP
 ----------
 
-Date and time: Mon Sep 30 21:40:21 2019
-Total CPU time used: 0.500916 seconds (0h:0m:0s)
-Total wall-clock time used: 0.525857 seconds (0h:0m:0s)
+Date and time: Tue Oct  1 10:18:10 2019
+Total CPU time used: 0.486278 seconds (0h:0m:0s)
+Total wall-clock time used: 0.516884 seconds (0h:0m:0s)
 

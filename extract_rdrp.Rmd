@@ -1,0 +1,55 @@
+get accession number from Figure 3G of <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3647518/>, stored in [betaCov_acc.txt](data/betaCov).
+
+download [genbank files](data/betaCov/gb) and extract the sequences, [betaCov.fasta](data/betaCov/betaCov.fasta).
+
+extract a [partial RdRp sequence](data/betaCov/query.fas) and do BLAST to extract partial RdRp sequences.
+
+```
+makeblastdb -in betaCov.fasta -dbtype nucl -out betaCov
+blastn -query query.fas -db betaCov -outfmt 11 -out "rdrq.blastn.asn"
+blast_formatter -archive "rdrp.blastn.asn" -outfmt "7 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore staxids salltitles" > "rdrp.blastn.tab"
+```
+
+
+```{r}
+xx = readLines("rdrp.blastn.tab")
+strsplit(gsub(" ", "", sub("# Fields: ", "", xx[4])), split=",")[[1]] -> hh
+
+x = read.delim2("rdrp.blastn.tab", comment="#", header=F)
+colnames(x) = hh
+
+start = x$s.start
+end = x$s.end
+ss = ss[x$subjecttitles]
+subseq(ss, start, end) -> rdrp
+
+## clean up sequence name and then exported to file
+
+writeXStringSet(rdrp, filepath="rdrp.fas")
+```
+
+```
+muscle -in rdrp.fas -out rdrp_aln.fas
+iqtree -s rdrp_aln.fas
+```
+
+## visualization
+
+```{r}
+library(ggtree)
+x = read.tree("rdrp_aln.fas.treefile")
+d = data.frame(label = x$tip.label)
+d$acc = sub(".*_(\\w+)$", "\\1", d$label)
+
+ggtree(x, ladderize=F) %<+% d + 
+    geom_tiplab(aes(color=acc %in% c("JX869059", "KC164505"))) + 
+    xlim(0, 4) + 
+    theme(legend.position="none") + 
+    scale_color_manual(values=c("black", "red"))
+
+ggtree(x, ladderize=F, branch.length='none') %<+% d + 
+    geom_tiplab(aes(color=acc %in% c("JX869059", "KC164505")))  + 
+    theme(legend.position="none") + 
+    scale_color_manual(values=c("black", "red")) + 
+    xlim(0, 18)
+```

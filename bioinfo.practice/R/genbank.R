@@ -8,7 +8,9 @@
 ##' @author Guangchuang Yu
 read.genbank <- function(file) {
     x <- readLines(file)
-    acc <- sub("\\w+\\s+(\\w+)$", "\\1", x[grep("ACCESSION", x)])
+    acc <- sub("\\w+\\s+(\\w+)$", "\\1", x[grep("^ACCESSION", x)])
+    src <- sub("SOURCE\\s+",  "", x[grep("^SOURCE",x)])
+    header <- paste0(src, "(", acc, ")")
     i <- grep("ORIGIN", x)
     ss <- x[(i+1):length(x)]
     ss <- ss[1:(grep("//", ss) -1)]
@@ -17,7 +19,7 @@ read.genbank <- function(file) {
     ss <- paste0(ss, collapse = "")
     f <- tempfile(fileext = ".fasta")
     cat(">",  file = f,append = TRUE)
-    cat(acc,  file = f,append = TRUE, sep = "\n")
+    cat(header,  file = f,append = TRUE, sep = "\n")
     cat(ss,  file = f,append = TRUE, sep = "\n")
     read.fasta(f)
 }
