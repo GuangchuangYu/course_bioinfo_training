@@ -1,0 +1,52 @@
+LOCUS       GQ259977                 332 bp    RNA     linear   VRL 25-JUL-2016
+DEFINITION  Coronavirus P.pipi/VM314/2008/NLD RNA-dependent RNA polymerase
+            (ORF1b) gene, partial cds.
+ACCESSION   GQ259977
+VERSION     GQ259977.1
+KEYWORDS    .
+SOURCE      Coronavirus P.pipi/VM314/2008/NLD
+  ORGANISM  Coronavirus P.pipi/VM314/2008/NLD
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA
+            stage; Nidovirales; Coronaviridae; Coronavirinae; Betacoronavirus;
+            unclassified Betacoronavirus.
+REFERENCE   1  (bases 1 to 332)
+  AUTHORS   Reusken,C.B., Lina,P.H., Pielaat,A., de Vries,A., Dam-Deisz,C.,
+            Adema,J., Drexler,J.F., Drosten,C. and Kooi,E.A.
+  TITLE     Circulation of group 2 coronaviruses in a bat species common to
+            urban areas in Western Europe
+  JOURNAL   Vector Borne Zoonotic Dis. 10 (8), 785-791 (2010)
+   PUBMED   20055576
+REFERENCE   2  (bases 1 to 332)
+  AUTHORS   Reusken,C., Kooi,B., de Vries,A., Deisz-Dam,C., Adema,J.,
+            Pielaat,A., Drexler,F., Drosten,C. and Lina,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-2009) LZO, RIVM, Ant. van Leeuwenhoeklaan 9,
+            Bilthoven 3720 BA, The Netherlands
+FEATURES             Location/Qualifiers
+     source          1..332
+                     /organism="Coronavirus P.pipi/VM314/2008/NLD"
+                     /mol_type="genomic RNA"
+                     /strain="P.pipi/VM314/2008/NLD"
+                     /host="Pipistrellus pipistrellus"
+                     /db_xref="taxon:745741"
+                     /country="Netherlands"
+                     /collection_date="2008"
+     gene            <1..>332
+                     /gene="ORF1b"
+     CDS             <1..>332
+                     /gene="ORF1b"
+                     /codon_start=1
+                     /product="RNA-dependent RNA polymerase"
+                     /protein_id="ADD81293.1"
+                     /translation="ASLILARKHGTCCTTRDRFYRLANECAQVLSEYVLCGGGYYVKP
+                     GGTSSGDATTAYANSVFNILQATTANVSALMGTNGNKIVDKEVKDMQFELYVNVYRST
+                     TPDPKFVD"
+ORIGIN      
+        1 gcttctctca tactggcacg taagcatgga acttgttgta ctacaaggga cagattttat
+       61 cgcttggcaa atgagtgtgc tcaggtgctg agtgaatatg tgttatgcgg tggtggctac
+      121 tacgtcaaac ctggtggtac gagtagtgga gatgccacaa ctgcatatgc caacagtgtg
+      181 ttcaacattt tgcaagcgac tacagcaaat gttagcgcac tcatgggtac taacggcaac
+      241 aagattgtcg ataaagaagt taaggacatg cagtttgaac tgtatgtcaa tgtttatcgg
+      301 agcactacgc ccgatcccaa attcgtggat aa
+//
+

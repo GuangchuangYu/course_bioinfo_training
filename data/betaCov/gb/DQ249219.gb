@@ -1,0 +1,100 @@
+LOCUS       DQ249219                2801 bp    RNA     linear   VRL 26-JUL-2016
+DEFINITION  Bat coronavirus HKU5 isolate HKU5-3 RNA-dependent RNA polymerase
+            gene, partial cds.
+ACCESSION   DQ249219
+VERSION     DQ249219.1
+KEYWORDS    .
+SOURCE      Pipistrellus bat coronavirus HKU5
+  ORGANISM  Pipistrellus bat coronavirus HKU5
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA
+            stage; Nidovirales; Coronaviridae; Coronavirinae; Betacoronavirus.
+REFERENCE   1  (bases 1 to 2801)
+  AUTHORS   Woo,P.C., Lau,S.K., Li,K.S., Poon,R.W., Wong,B.H., Tsoi,H.W.,
+            Yip,B.C., Huang,Y., Chan,K.H. and Yuen,K.Y.
+  TITLE     Molecular diversity of coronaviruses in bats
+  JOURNAL   Virology 351 (1), 180-187 (2006)
+   PUBMED   16647731
+REFERENCE   2  (bases 1 to 2801)
+  AUTHORS   Woo,P.C.Y., Lau,S.K.P., Li,K.S.M., Poon,R.W.S., Wong,B.H.L.,
+            Tsoi,H.W. and Yuen,K.Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-OCT-2005) Department of Microbiology, The University
+            of Hong Kong, Pokfulam Road, Hong Kong, China
+FEATURES             Location/Qualifiers
+     source          1..2801
+                     /organism="Pipistrellus bat coronavirus HKU5"
+                     /mol_type="genomic RNA"
+                     /isolate="HKU5-3"
+                     /db_xref="taxon:694008"
+     CDS             join(<1..24,24..>2801)
+                     /ribosomal_slippage
+                     /codon_start=1
+                     /product="RNA-dependent RNA polymerase"
+                     /protein_id="ABB77033.1"
+                     /translation="SKDSNFLNRVRGSIVNARIEPCASGLTTDVVFRAFDICNYKAKV
+                     AGIGKYYKTNTCRFVEVDDEGHRLDSFFVVKRHTMENYELEKRCYDLVKDCDAVAVHD
+                     FFIFDVDKVKTPHIVRQRLTEYTMMDLVYALRHFDQNNCEVLKSILVKYGCCDASYFD
+                     NKLWFDFVENPNVISVYHKLGERIRQAVLNTVKFCDQMVKSGLVGVLTLDNQDLNGKW
+                     YDFGDFVITQPGAGVAIVDSYYSYLMPVLSMTNCLAAETHRDCDLTKPLIEWPLLEYD
+                     YTDYKIGLFEKYFKHWDQQYHPNCVNCTDDRCVLHCANFNVLFSMTLPGTSFGPIVRK
+                     IFVDGVPFVISCGYHYKELGLVMNMDVSLHRHRLSLKELMMYAADPAMHIASASALWD
+                     LRTPCFSVAALTTGLTFQTVRPGNFNKDFYDFVVSKGFFKEGSSVTLRHFFFAQDGHA
+                     AITDYSYYAYNLPTMCDIKQMLFCMEVVDRYFEIYDGGCLNASEVIVNNLDKSAGHPF
+                     NKFGKARVYYESLSYQEQDELFAMTKRNVLPTITQMNLKYAISAKNRARTVAGVSILS
+                     TMTNRQYHQKMLKSMAATRGSTCVIGTTKFYGGWDFMLKTLYKDVDNPHLMGWDYPKC
+                     DRAMPNMCRIFASLILARKHSTCCTNTDRFYRLANECAQVLSEYVLCGGGYYVKPGGT
+                     SSGDATTAYANSVFNILQATTANVSALMGANGNTIVDKEVKDMQFELYVNVYRKSQPD
+                     PKFVDRYYAFLNKHFSMMILSDDGVVCYNSDYATKGYIASIQNFKETLYYQNNVFMSE
+                     AKCWVETDLKKGPHEFCSQHTLFIKDGDDGYFLPYPDPSRILSAGCFVDDIVKTDGTL
+                     MVERFVSLAIDAYPLTKHDDPEYQNVFWVYLQYIEKLYKDLTGHMLDSYSVMLCGDNS
+                     AKFWEESFYRDLYTAPTTLQ"
+ORIGIN      
+        1 tccaaagatt ccaacttttt aaacgagtcc ggggttctat tgtaaatgcc cgaatagaac
+       61 cctgtgccag tggtcttacc actgatgttg tctttagggc atttgatatc tgcaactata
+      121 aggcaaaagt tgctggtatt ggtaagtatt acaagactaa tacttgcagg tttgtagagg
+      181 tcgatgacga aggtcataga cttgactcct tctttgtcgt taagcgccat acaatggaaa
+      241 attatgagct ggaaaagcgg tgttatgacc ttgttaagga ttgtgatgcc gtagcagttc
+      301 atgatttctt catttttgac gttgacaaag tcaaaactcc tcatatagta cgtcaacgat
+      361 tgacagagta cactatgatg gatcttgtat atgctttgag gcactttgat cagaataact
+      421 gtgaagtgct taagagcata cttgtaaaat atggctgctg tgatgcatca tattttgata
+      481 ataaattgtg gttcgatttt gttgaaaacc ccaatgttat aagtgtctat cacaagcttg
+      541 gtgaaagaat tcgccaagct gtgcttaaca ctgttaaatt ttgtgaccaa atggttaaat
+      601 ctggtcttgt tggtgtctta acccttgaca atcaggatct gaatggcaag tggtatgatt
+      661 ttggtgattt cgtaatcact caacctggtg caggagtagc tattgttgat agctactatt
+      721 cttatttaat gcctgtgctt tctatgacca actgcttggc cgctgaaacc cacagggatt
+      781 gtgatttaac taagcctctc attgagtggc cacttctaga gtacgactac acagattaca
+      841 agattggtct gtttgaaaag tactttaagc attgggatca gcagtatcac ccaaattgtg
+      901 tgaactgtac tgatgaccgt tgtgtgctac attgtgcaaa tttcaatgtg cttttctcaa
+      961 tgacgctacc gggaacgtct tttggtccaa ttgtccgaaa aatctttgtc gatggcgtac
+     1021 catttgtcat atcttgtggt tatcactaca aggaattagg attagtcatg aatatggacg
+     1081 tgagtcttca tagacataga ctatcactta aggagctaat gatgtatgca gctgatccag
+     1141 ccatgcacat agcttcagcc tctgccctct gggatttaag aacaccatgt tttagtgttg
+     1201 ccgcactcac gacaggtcta acctttcaga ctgtccgtcc tggcaacttt aataaagatt
+     1261 tctatgattt tgttgtttct aagggctttt tcaaggaagg gtcctcagtc acattaaggc
+     1321 atttcttctt cgcgcaagat ggacatgctg ctattactga ttacagctat tatgcttaca
+     1381 acctgccaac gatgtgtgac ataaagcaga tgttgttttg tatggaagtt gttgatcgtt
+     1441 acttcgagat atatgatggc ggttgcctca atgcatcgga agtaattgtt aacaatttgg
+     1501 ataagagcgc tggccatcca ttcaataagt ttggaaaagc cagagtctat tatgagagtc
+     1561 tgtcttatca agaacaggat gagctttttg ccatgacaaa gcgaaacgtt cttccgacga
+     1621 taacgcagat gaatttgaaa tatgctatta gtgctaagaa tagagctcgg actgttgccg
+     1681 gtgtttcgat ccttagcaca atgactaatc gtcaatacca ccagaaaatg cttaagtcta
+     1741 tggcagccac gcggggttcc acgtgtgtca tagggactac taagttttat ggtggttggg
+     1801 actttatgtt aaaaaccttg tataaggatg ttgataatcc tcacttgatg ggttgggact
+     1861 accctaagtg tgatcgcgct atgcctaata tgtgcagaat ctttgcatct ctcatattag
+     1921 cccgtaagca tagtacttgt tgtactaata ctgatagatt ttaccgctta gcaaatgagt
+     1981 gcgctcaagt gcttagtgag tatgtccttt gtggtggtgg ttactacgtc aaacctggtg
+     2041 ggaccagtag cggagatgca accacagctt acgccaatag tgtctttaac attctgcagg
+     2101 cgacaactgc gaatgttagt gcacttatgg gcgctaatgg caacactatt gttgacaaag
+     2161 aagttaagga catgcagttt gagctgtatg taaatgttta cagaaagagc caacctgacc
+     2221 ctaaatttgt ggacaggtat tatgcctttc tgaataagca cttttccatg atgatactgt
+     2281 ctgatgatgg tgtcgtatgc tataatagtg attacgccac taagggctat atcgcatcca
+     2341 ttcaaaattt taaggagact ctgtattatc agaataatgt cttcatgtca gaggctaaat
+     2401 gctgggtgga aaccgatttg aaaaaaggtc cacatgagtt ttgctcacag catacacttt
+     2461 tcataaagga tggtgacgat ggttacttcc taccttatcc agacccttca agaattctgt
+     2521 ctgccggttg cttcgtcgat gatatcgtca agactgacgg tacgctcatg gttgagagat
+     2581 tcgtgtcatt ggctatagac gcttatcctc tcacgaagca tgatgatcct gaataccaaa
+     2641 atgtattctg ggtgtattta cagtacatag aaaaactgta taaagacctc acaggacaca
+     2701 tgcttgatag ttactctgtc atgctatgtg gtgataattc agctaaattc tgggaagaga
+     2761 gcttctatag agacctctat actgctccta ccacacttca g
+//
+

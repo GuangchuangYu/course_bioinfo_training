@@ -1,0 +1,53 @@
+LOCUS       HQ184062                 396 bp    RNA     linear   VRL 06-AUG-2012
+DEFINITION  Betacoronavirus E.isa/M/Spain/2007 RNA-dependent RNA polymerase
+            gene, partial cds.
+ACCESSION   HQ184062
+VERSION     HQ184062.1
+KEYWORDS    .
+SOURCE      Betacoronavirus E.isa/M/Spain/2007
+  ORGANISM  Betacoronavirus E.isa/M/Spain/2007
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA
+            stage; Nidovirales; Coronaviridae; Coronavirinae; Betacoronavirus;
+            unclassified Betacoronavirus.
+REFERENCE   1  (bases 1 to 396)
+  AUTHORS   Falcon,A., Vazquez-Moron,S., Casas,I., Aznar,C., Ruiz,G., Pozo,F.,
+            Perez-Brena,P., Juste,J., Ibanez,C., Garin,I., Aihartza,J. and
+            Echevarria,J.E.
+  TITLE     Detection of alpha and betacoronaviruses in multiple Iberian bat
+            species
+  JOURNAL   Arch. Virol. 156 (10), 1883-1890 (2011)
+   PUBMED   21766197
+REFERENCE   2  (bases 1 to 396)
+  AUTHORS   Falcon,A., Vazquez-Moron,S., Casas,I. and Ruiz,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-AUG-2010) Molecular and Cellular Biology, Centro
+            Nacional de Biotecnologia, CSIC. Spain, Darwin 3 Campus de
+            Cantoblanco, Cantoblanco, Madrid 28049, Spain
+FEATURES             Location/Qualifiers
+     source          1..396
+                     /organism="Betacoronavirus E.isa/M/Spain/2007"
+                     /mol_type="genomic RNA"
+                     /strain="E.isa/M/Spain/2007"
+                     /isolate="BatCoV M"
+                     /isolation_source="fecal sample"
+                     /host="Eptesicus isabellinus"
+                     /db_xref="taxon:1076428"
+                     /country="Spain"
+                     /collection_date="2007"
+     CDS             <1..>396
+                     /codon_start=1
+                     /product="RNA-dependent RNA polymerase"
+                     /protein_id="AEM53913.1"
+                     /translation="RAMPNMCRIFASLILARKHGTCCSTSDRFYRLANECAQVLSEYV
+                     LCGGGYYVKPGGTSSGDATTAYANSVFNILQATTANVSALMGANGNKIVDKEVRDMQF
+                     DLYVNVYRRTTPDPKFVDKYYAFLNKHFSM"
+ORIGIN      
+        1 cgtgctatgc ctaacatgtg taggattttt gcatcactga tattagctcg caagcatggt
+       61 acttgctgct ctaccagtga tcggttctac cgcttagcta atgagtgcgc tcaagtgcta
+      121 agtgaatatg tgttatgcgg tggtggttac tatgttaagc ctggtggcac aagcagtggt
+      181 gacgccacta cagcatatgc caatagtgtt ttcaacattc tgcaagcgac tactgcgaat
+      241 gtgagtgcac ttatgggagc taatggcaac aagattgttg ataaagaagt tagagacatg
+      301 cagtttgatt tgtatgtcaa tgtttacagg cgtacaacac ctgatcccaa gtttgtggac
+      361 aagtattatg cttttcttaa taagcacttt tcaatg
+//
+

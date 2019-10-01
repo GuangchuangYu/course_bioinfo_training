@@ -1,0 +1,55 @@
+LOCUS       DQ648807                 437 bp    RNA     linear   VRL 14-JUL-2016
+DEFINITION  Bat coronavirus (BtCoV/310A /2005) RNA-dependent RNA polymerase
+            gene, partial cds.
+ACCESSION   DQ648807
+VERSION     DQ648807.1
+KEYWORDS    .
+SOURCE      Bat coronavirus (BtCoV/310A /2005)
+  ORGANISM  Bat coronavirus (BtCoV/310A /2005)
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA
+            stage; Nidovirales; Coronaviridae; Coronavirinae; unclassified
+            coronaviruses.
+REFERENCE   1  (bases 1 to 437)
+  AUTHORS   Tang,X.C., Zhang,J.X., Zhang,S.Y., Wang,P., Fan,X.H., Li,L.F.,
+            Li,G., Dong,B.Q., Liu,W., Cheung,C.L., Xu,K.M., Song,W.J.,
+            Vijaykrishna,D., Poon,L.L., Peiris,J.S., Smith,G.J., Chen,H. and
+            Guan,Y.
+  TITLE     Prevalence and genetic diversity of coronaviruses in bats from
+            China
+  JOURNAL   J. Virol. 80 (15), 7481-7490 (2006)
+   PUBMED   16840328
+REFERENCE   2  (bases 1 to 437)
+  AUTHORS   Tang,X.C., Zhang,J.X., Zhang,S.Y., Wang,P., Fan,X.H., Li,L.F.,
+            Li,G., Dong,B.Q., Liu,W., Cheung,C.L., Xu,K.M., Song,W.J.,
+            Vijaykrishna,D., Poon,L.L.M., Peiris,J.S.M., Smith,G.J.D., Chen,H.
+            and Guan,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAY-2006) State Key Laboratory of Emerging Infectious
+            Diseases, Department of Microbiology, The University of Hong Kong,
+            Faculty of Medicine Building, No. 21 Sasoon Road, Pokfulam, Hong
+            Kong SAR
+FEATURES             Location/Qualifiers
+     source          1..437
+                     /organism="Bat coronavirus (BtCoV/310A /2005)"
+                     /mol_type="genomic RNA"
+                     /strain="BtCoV/310A/2005)"
+                     /db_xref="taxon:389235"
+     CDS             <1..>437
+                     /note="RdRp"
+                     /codon_start=1
+                     /product="RNA-dependent RNA polymerase"
+                     /protein_id="ABG47349.1"
+                     /translation="WDYPKCDRAMPNMCRIFASLILARKHSTCCTNTDRFYRLANECA
+                     QVLSEYVLCGGGYYVKPGGTSSGDATTAYANSVFNILQATTANVSALMGANGNTIVDK
+                     EVKDMQFELYVNVYRKSQPDPKFVDRYYAFLNKHFSMMILSDD"
+ORIGIN      
+        1 tgggattatc ctaagtgtga tcgtgctatg cctaatatgt gcagaatctt tgcttctctc
+       61 atattagctc gtaagcatag tacatgttgt actaatactg atagattcta tcgcttagca
+      121 aatgagtgtg ctcaagtgct tagtgagtat gtcctttgtg gcggtggtta ttacgtcaaa
+      181 cctggtggga ccagtagcgg cgatgcaacc acagcttacg ctaatagtgt ttttaacatt
+      241 ttgcaggcga ccaccgcaaa tgttagcgca cttatgggcg ctaatggcaa cactattgtt
+      301 gacaaagaag ttaaggacat gcagtttgaa ctgtatgtaa atgtttacag aaagagccaa
+      361 cctgacccta aatttgtgga caggtattat gcctttctga acaagcattt ttctatgatg
+      421 attctatctg atgatga
+//
+
